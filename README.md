@@ -2,6 +2,8 @@
 
 This web extension enhances your experience on Quran.com by providing detailed word breakdowns, context analysis, and root word exploration with a single click of a word.
 
+<img src="icons/example.png" alt="Example Usage"/>
+
 ## Background
 
 This project builds upon the Quranic Arabic Corpus, a well-known linguistic resource originally developed by Dr. Kais Dukes in 2009. In 2023, Dr. Dukes began working on Quranic Corpus 2.0, a more advanced version of the original corpus, but sadly, he passed away in 2024 before its completion. The backend of this extension is based on a modified version of the Quranic Corpus 2.0 API, re-structuring its morphological breakdown and search capabilities.
@@ -34,7 +36,7 @@ Since the future of the Corpus 2.0 remains uncertain, this project aims to conti
 
 ## Sources
  
--	[Quranic Arabic Corpus](https://corpus.quran.com) (Dr. Kais Dukes)
+- [Quranic Arabic Corpus](https://corpus.quran.com) (Dr. Kais Dukes)
 - [Quranic Corpus 2.0 Backend](https://github.com/kaisdukes/quranic-corpus-api) (Original API)
 - [Quran.com](https://quran.com) (Primary interface for Quran text and translations)
 
