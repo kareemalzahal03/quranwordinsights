@@ -1,0 +1,112 @@
+/* style.css */
+
+.analysisbox_right {
+    margin-top: var(--gap-size);
+    width: 100%;
+}
+
+.highlighted_word {
+    color: var(--color-success-medium);
+    font-weight: bold;
+}
+
+[selected="true"] {
+    /* color: orchid; */
+    color: var(--color-success-medium);
+}
+
+.morph-arabic-word {
+    font-family: "UthmanicHafs";
+    font-weight: 600;
+    font-size: 50px;
+    direction: rtl;
+    display: inline-block;
+}
+
+.similar-arabic-word {
+    padding-top: 5px;
+    font-family: "UthmanicHafs";
+    direction: rtl;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.seg_bullet_point { font-weight: bold; }
+
+.morph_transliteration { font-weight: bold; font-size: 25px; }
+
+/* Group 1: Determiners */
+[seg_name="determiner"] { color:grey }
+/* Group 2: Verbal Nouns */
+[seg_name="active_participle"] { color:lightskyblue }
+[seg_name="passive_participle"] { color:lightskyblue }
+[seg_name="verbal_noun"] { color:lightskyblue }
+/* Group 3: Nouns */
+[seg_name="noun"] { color:teal }
+/* Group 3: Proper Nouns */
+[seg_name="proper_noun"] { color:cornflowerblue }
+/* Group 4: Adjectives */
+[seg_name="adjective"] { color:lightcoral }
+/* Group 5: Pronouns */
+[seg_name="possessive_pronoun"] { color:rgb(255, 196, 0) }
+[seg_name="subject_pronoun"] { color:rgb(255, 196, 0) }
+[seg_name="first_object_pronoun"] { color:orange }
+[seg_name="object_pronoun"] { color:orange }
+[seg_name="second_object_pronoun"] { color:orangered }
+[seg_name="personal_pronoun"] { color:orange }
+[seg_name="demonstrative_pronoun"] { color:orange }
+[seg_name="relative_pronoun"] { color:orange }
+/* Group 6: Verbs */
+[seg_name="verb"] { color:green }
+/* Group 7: Prepositions */
+[seg_name="preposition"] { color:lightsteelblue }
+/* Group 8: Conjunctions */
+[seg_name="conjunction"] { color:slateblue }
+[seg_name="coordinating_conjunction"] { color:slateblue }
+[seg_name="subordinating_conjunction"] { color:slateblue }
+/* Group 9: Quranic Initials */
+[seg_name="Quranic_initials"] { color:deeppink }
+/* Group 10: Adverbs */
+[seg_name="time_adverb"] { color:lightgoldenrodyellow }
+[seg_name="location_adverb"] { color:lightgoldenrodyellow }
+/* Group 11: Vocatives */
+[seg_name="vocative_suffix"] { color:mediumorchid }
+[seg_name="vocative_particle"] { color:mediumorchid }
+/* Group 12: Emphasis */
+[seg_name="emphatic_suffix"] { color:crimson }
+[seg_name="emphatic_prefix"] { color:crimson }
+[seg_name="imperative_verbal_noun"] { color:crimson }
+/* Group 13: Interrogation */
+[seg_name="interrogative_particle"] { color:goldenrod }
+[seg_name="interrogative_alif"] { color:goldenrod }
+[seg_name="interrogative_noun"] { color:goldenrod }
+/* Group 14: Conditional */
+[seg_name="conditional_noun"] { color:peru }
+[seg_name="conditional_particle"] { color:peru }
+/* Group 15: Other Particles */
+[seg_name="accusative_particle"] { color:firebrick }
+[seg_name="restriction_particle"] { color:firebrick }
+[seg_name="exceptive_particle"] { color:firebrick }
+[seg_name="aversion_particle"] { color:firebrick }
+[seg_name="particle_of_certainty"] { color:firebrick }
+[seg_name="retraction_particle"] { color:firebrick }
+[seg_name="preventive_particle"] { color:firebrick }
+[seg_name="answer_particle"] { color:firebrick }
+[seg_name="inceptive_particle"] { color:firebrick }
+[seg_name="surprise_particle"] { color:firebrick }
+[seg_name="supplemental_particle"] { color:firebrick }
+[seg_name="exhortation_particle"] { color:firebrick }
+[seg_name="result_particle"] { color:firebrick }
+[seg_name="negative_particle"] { color:firebrick }
+[seg_name="particle_of_purpose"] { color:firebrick }
+[seg_name="imperative_particle"] { color:firebrick }
+[seg_name="future_particle"] { color:firebrick }
+[seg_name="explanation_particle"] { color:firebrick }
+[seg_name="equalization_particle"] { color:firebrick }
+[seg_name="resumption_particle"] { color:firebrick }
+[seg_name="circumstantial_particle"] { color:firebrick }
+[seg_name="particle_of_cause"] { color:firebrick }
+[seg_name="amendment_particle"] { color:firebrick }
+[seg_name="prohibition_particle"] { color:firebrick }
+[seg_name="particle_of_interpretation"] { color:firebrick }
+[seg_name="comitative_particle"] { color:firebrick }
